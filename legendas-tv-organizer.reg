@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\legendas_tv_organizer]
+@="Organize Subtitle Here"
+"Icon"="C:\\Program Files\\Legendas TV Organizer\\legendas-tv-organizer.ico"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\legendas_tv_organizer\command]
+@="\"C:\\Program Files\\Legendas TV Organizer\\legendas-tv-organizer.exe\" \"%v.\""
