@@ -1,6 +1,6 @@
 # Python Legendas TV Organizer
 
-Program to organize subtitles downloaded from [legendas.tv](legendas.tv). To work, run .py in a folder with the video file and the .zip downloaded from [legendas.tv](legendas.tv).
+Program to organize subtitles downloaded from [legendas.tv](http://legendas.tv). To work, run .py in a folder with the video file and the .zip downloaded from [legendas.tv](http://legendas.tv).
 
 ## Getting Started
 
