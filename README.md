@@ -2,6 +2,8 @@
 
 Program to organize subtitles downloaded from [legendas.tv](http://legendas.tv). To work, run .py in a folder with the video file and the .zip downloaded from [legendas.tv](http://legendas.tv).
 
+![Python Legendas TV Organizer](sample.gif)
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
@@ -50,7 +52,7 @@ Call script inside a folder with photos:
 
 ### Windows
 
-To run a test, call the script inside a folder with photos.
+To run a test, call the script inside the folder.
 
 ```
 python legendas-tv-organizer.py .
