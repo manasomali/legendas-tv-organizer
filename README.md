@@ -87,7 +87,7 @@ To generate *legendas-tv-organizer.exe* file to run on Windows.
 pyinstaller -w -F legendas-tv-organizer/legendas-tv-organizer.py
 ```
 
-2. Add the keys on Registry or run *legendas-tv-organizer.reg*.
+2. Add the keys on Registry or run *static/legendas-tv-organizer.reg*.
 3. Copy .exe file on *C:\Program Files\Legendas TV Organizer*
 4. Add *C:\Program Files\Legendas TV Organizer* in the *Path* on Windows Environment Variable.
 
