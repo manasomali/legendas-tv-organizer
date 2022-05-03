@@ -2,11 +2,7 @@
 
 Program to organize subtitles downloaded from [legendas.tv](http://legendas.tv). To work, run .py in a folder with the video file and the .zip downloaded from [legendas.tv](http://legendas.tv).
 
-![Python Legendas TV Organizer](sample.gif)
-
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+![Python Legendas TV Organizer](static/sample.gif)
 
 ### Prerequisites
 
@@ -16,35 +12,60 @@ What things you need to install the software and how to install them
 Python 3.x
 ```
 
-### Installing
+## Getting Started
 
-A step by step series of examples that tell you how to get a development env running
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-Install Python 3.x with pip
-
-Install send2trash
+Start creating a virtual environment called "venv":
 
 ```
-pip install Send2Trash
+$ python -m venv venv
 ```
 
-Install PyInstaller, to generate .exe file (for Windows)
+Then, activate with:
+
+Windows:
 
 ```
-pip install pyinstaller
+$ venv\Scripts\activate
 ```
 
+MacOs:
 
-## Running the tests
+```
+$ source venv/bin/activate
+```
+
+When finised, deactivate with:
+
+```
+$ deactivate
+```
+
+After activate "env" it is necessary install the requirements:
+
+```
+$ pip install -r requirements.txt
+```
+
+## Testing
+
+For testing, use the sample video e subtitle in the forlder "test" and call the main script:
+```
+cd test/
+python ../legendas-tv-organizer/legendas-tv-organizer.py
+```
+
+## Running
 
 ### Linux, Mac OS X, BSD and most OSes except Windows
 Turn script executable:
 
 ```
-chmod +x legendas-tv-organizer.py
+chmod +x legendas-tv-organizer/legendas-tv-organizer.py
 ```
 
-Call script inside a folder with photos:
+Call script inside a folder:
 
 ```
 ./legendas-tv-organizer.py .
@@ -52,7 +73,7 @@ Call script inside a folder with photos:
 
 ### Windows
 
-To run a test, call the script inside the folder.
+1. To run a test, call the script inside the folder.
 
 ```
 python legendas-tv-organizer.py .
@@ -60,10 +81,10 @@ python legendas-tv-organizer.py .
 
 **For Windows in Context Menu:**
 
-1. To generate *legendas-tv-organizer.exe* file to run on Windows.
+To generate *legendas-tv-organizer.exe* file to run on Windows.
 
 ```
-pyinstaller -w -F legendas-tv-organizer.py
+pyinstaller -w -F legendas-tv-organizer/legendas-tv-organizer.py
 ```
 
 2. Add the keys on Registry or run *legendas-tv-organizer.reg*.
@@ -85,6 +106,7 @@ This project is licensed under the [GNU General Public License](https://opensour
 
 ## Acknowledgments
 
-Codigo inspirado em:
+Inspired by:
+
 * [photo-organizer](https://github.com/gabrielfroes/photo-organizer)
 * [Código Fonte TV](https://www.youtube.com/codigofontetv), Youtube Channel.
